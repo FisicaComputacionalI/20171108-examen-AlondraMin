@@ -7,8 +7,9 @@
 using namespace std;
 int main (){
   // Definimos mis variables
-  int distancia, tiempo; 
-  int velocidad=0;
+  // Tú definición inicial estaba hecha con enteros, cuando se dividen enteros el resultado tiene que ser entero para que se imprima. Sí se cambia el tipo de variable a float, tu programa corre sin problema. 
+  float distancia, tiempo; 
+  float velocidad=0;
   //Ponemos nombre al primer dato que vamos a meter
   cout << "Elige una distancia: " << endl;
   cin>>distancia;
